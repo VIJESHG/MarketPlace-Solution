@@ -1,0 +1,98 @@
+body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Lato", sans-serif;
+  }
+
+  body,
+  html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+  }
+
+  /* Create a Parallax Effect */
+
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3,
+  .bgimg-4 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .twitter-timeline,
+  #sign {
+    float: right;
+  }
+
+  /* First image (Logo. Full height) */
+
+  .bgimg-1 {
+    background-image: url('../img/cow-1.jpg');
+    min-height: 100%;
+  }
+
+  /* Second image (Values) */
+
+  .bgimg-2 {
+    background-image: url("../img/values.jpg");
+    min-height: 400px;
+  }
+
+  /* Third image (Contact) */
+
+  .bgimg-3 {
+    background-image: url("../img/8.jpg");
+    min-height: 400px;
+  }
+
+  .bgimg-4 {
+    background-image: url("../img/services.jpg");
+    min-height: 400px;
+  }
+
+  .w3-wide {
+    letter-spacing: 10px;
+  }
+
+  .w3-hover-opacity {
+    cursor: pointer;
+  }
+
+  /* Turn off parallax scrolling for tablets and phones */
+
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+      background-attachment: scroll;
+    }
+  }
+
+  .logo {
+    font-size: 200px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+
+  .logo-small {
+    color: #4d636f;
+    font-size: 50px;
+  }
+
+  .logo {
+    color: #4d636f;
+    font-size: 200px;
+  }

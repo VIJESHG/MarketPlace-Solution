@@ -1,0 +1,50 @@
+{
+  "name": "marketplace-solution",
+  "version": "1.0.0",
+  "description": "Marketplace Solution based on distributed ledger technology to sell or purchase cattle and cow milk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VIJESHG/MarketPlace-Solution.git"
+  },
+  "keywords": [
+    "Ethereum",
+    "web3",
+    "truffle",
+    "testrpc"
+  ],
+  "author": "Vijesh Ghandare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VIJESHG/MarketPlace-Solution/issues"
+  },
+  "homepage": "https://github.com/VIJESHG/MarketPlace-Solution#readme",
+  "dependencies": {
+    "GridFS": "^0.3.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "chalk": "^2.3.2",
+    "connect-flash": "^0.1.1",
+    "ethereumjs-testrpc": "^6.0.3",
+    "events": "~2.0.0",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "express-status-monitor": "^1.0.1",
+    "ganache-cli": "^6.4.3",
+    "lodash": "~4.17.5",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.0",
+    "package.json": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "sha1": "^1.1.1",
+    "socket.io": "~2.0.4",
+    "truffle": "^5.0.19",
+    "web3": "^0.20.7"
+  }
+}
